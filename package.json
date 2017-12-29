@@ -1,0 +1,43 @@
+{
+  "name": "template-api-nodejs",
+  "version": "1.0.0",
+  "description": "Template for API rest node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "NODE_ENV=develop nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/andreybejaranobondacom/template-api-nodejs.git"
+  },
+  "author": "Erik Andrey Bejarano Sanchez <andreybejarano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreybejaranobondacom/template-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/andreybejaranobondacom/template-api-nodejs#readme",
+  "nodemonConfig": {
+    "nodeArgs": [
+      "--inspect=5820"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jasmine": "^2.8.0",
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
